@@ -1,6 +1,6 @@
 /*
  * @Date: 2023-04-03 15:34:43
- * @LastEditTime: 2023-04-03 16:06:49
+ * @LastEditTime: 2023-04-03 17:39:19
  * @FilePath: /vue-Test/src/router/index.ts
  * @Description:
  *
@@ -17,6 +17,11 @@ const routes = [
     path: "/testpinia",
     name: "TestPinia",
     component: () => import("../pages/testPinia.vue"),
+  },
+  {
+    path: "/Reactive",
+    name: "Reactive",
+    component: () => import("../pages/Reactive.vue"),
   },
 ];
 
